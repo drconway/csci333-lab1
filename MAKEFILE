@@ -8,9 +8,10 @@ hello: hello.cpp
 
 
 
-
+problem2: problem2.cpp
+	$(CC) $(CFLAGS) -o problem2.cpp
 
 clean: 
 	rm -f *~
 	rm -f hello
-
+	rm -f problem2
